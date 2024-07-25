@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign Up</title>
+    <link rel="stylesheet" href="/Other pages/signupStyle.css">
+</head>
+<body>
+    <form action="#">
+        <label for="userName">User Name</label>
+        <input type="text" 
+        id="userName" 
+        placeholder="Enter the Full name" 
+        minlength="2"
+        maxlength="16">
+
+        <label for="mobile">Mobile</label>
+        <input type="tel" id="mobile" placeholder="Enter Mobile number"
+        minlength="10"
+        maxlength="12">
+
+        <label for="email">Email id <sup>*</sup></label>
+        <input type="email"
+        id="email" 
+        placeholder="Enter email id"
+        required>
+
+        <label for="pass">Password <sup>*</sup></label>
+        <input type="password"
+        id="pass"
+        placeholder="At least 8 characters" required
+        minlength="8"
+        maxlength="20">
+
+        <label for="dob">Dob</label>
+        <input type="date" 
+         id="dob">
+
+         <input type="submit" value="Login">
+         <input type="reset" value="Cancel">
+    </form>
+</body>
+</html>
